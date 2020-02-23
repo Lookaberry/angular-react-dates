@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@lookaberry/angular-react-dates": [
+        "dist/lookaberry/angular-react-dates/lookaberry-angular-react-dates",
+        "dist/lookaberry/angular-react-dates"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
