@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { DateRangePicker } from 'react-dates';
-import * as moment from 'moment';
+import * as moment_ from 'moment';
+const moment = moment_;
 import { DateRangePickerComponent } from '../../date-range-picker.component';
 
 export class DateRangePickerWrapper extends React.Component<any, any> {

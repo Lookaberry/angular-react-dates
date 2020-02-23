@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { SingleDatePicker } from 'react-dates';
-import * as moment from 'moment';
+import * as moment_ from 'moment';
+const moment = moment_;
 import { SingleDatePickerComponent } from '../../single-date-picker.component';
 
 export class SingleDatePickerWrapper extends React.Component<any, any> {
