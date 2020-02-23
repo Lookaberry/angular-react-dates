@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
-import { AngularReactDatesComponent } from './angular-react-dates.component';
-
-
+import { DateRangePickerComponent } from './date-range-picker/date-range-picker.component';
+import { SingleDatePickerComponent } from './single-date-picker/single-date-picker.component';
 
 @NgModule({
-  declarations: [AngularReactDatesComponent],
+  declarations: [DateRangePickerComponent,SingleDatePickerComponent],
   imports: [
   ],
-  exports: [AngularReactDatesComponent]
+  exports: [DateRangePickerComponent,SingleDatePickerComponent]
 })
 export class AngularReactDatesModule { }
