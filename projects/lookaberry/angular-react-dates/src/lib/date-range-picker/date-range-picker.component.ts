@@ -1,6 +1,6 @@
 import { Component, OnInit, forwardRef, ViewChild, ElementRef, Input, AfterViewInit } from '@angular/core';
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
-import { DateRangePickerWrapper } from './react/date-range-picker-wrapper/date-range-picker-wrapper.component';
+import { DateRangePickerWrapper } from './react/date-range-picker-wrapper/date-range-picker-wrapper';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
