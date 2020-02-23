@@ -73,7 +73,9 @@ export class DateRangePickerWrapper extends React.Component<any, any> {
       onFocusChange: this.onFocusChange,
 
       // Optional
+      startDateId:this.props.startDateId === undefined ? "AngularDateRangePickerStart" : this.props.startDateId,
       startDatePlaceholderText: this.props.startDatePlaceholderText,
+      endDateId:this.props.endDateId === undefined ? "AngularDateRangePickerEnd" : this.props.endDateId,
       endDatePlaceholderText: this.props.endDatePlaceholderText,
       disabled: this.props.disabled,
       required: this.props.required,
