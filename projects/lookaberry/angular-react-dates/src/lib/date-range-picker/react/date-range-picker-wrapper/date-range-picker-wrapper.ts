@@ -73,9 +73,7 @@ export class DateRangePickerWrapper extends React.Component<any, any> {
       onFocusChange: this.onFocusChange,
 
       // Optional
-      startDateId: this.props.startDateId,
       startDatePlaceholderText: this.props.startDatePlaceholderText,
-      endDateId: this.props.endDateId,
       endDatePlaceholderText: this.props.endDatePlaceholderText,
       disabled: this.props.disabled,
       required: this.props.required,
@@ -87,7 +85,6 @@ export class DateRangePickerWrapper extends React.Component<any, any> {
       customArrowIcon: this.props.customArrowIcon,
       customCloseIcon: this.props.customCloseIcon,
 
-      renderMonth: this.props.renderMonth,
       orientation: this.props.orientation,
       anchorDirection: this.props.anchorDirection,
       horizontalMargin: this.props.horizontalMargin,
@@ -109,7 +106,6 @@ export class DateRangePickerWrapper extends React.Component<any, any> {
       onNextMonthClick: this.props.onNextMonthClick,
       onClose: this.props.onClose,
 
-      renderDay: this.props.renderDay,
       minimumNights: this.props.minimumNights,
       enableOutsideDays: this.props.enableOutsideDays,
       isDayBlocked: this.props.isDayBlocked,

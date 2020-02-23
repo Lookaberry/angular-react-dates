@@ -57,7 +57,6 @@ export class SingleDatePickerWrapper extends React.Component<any, any> {
       onFocusChange: this.onFocusChange,
 
       // Optional
-      id: this.props.id,
       placeholder: this.props.placeholder,
       disabled: this.props.disabled,
       required: this.props.required,
@@ -68,7 +67,6 @@ export class SingleDatePickerWrapper extends React.Component<any, any> {
       showDefaultInputIcon: this.props.showDefaultInputIcon,
       customInputIcon: this.props.customInputIcon,
 
-      renderMonth: this.props.renderMonth,
       orientation: this.props.orientation,
       anchorDirection: this.props.anchorDirection,
       horizontalMargin: this.props.horizontalMargin,
@@ -90,7 +88,6 @@ export class SingleDatePickerWrapper extends React.Component<any, any> {
       onNextMonthClick: this.props.onNextMonthClick,
       onClose: this.props.onClose,
 
-      renderDay: this.props.renderDay,
       enableOutsideDays: this.props.enableOutsideDays,
       isDayBlocked: this.props.isDayBlocked,
       isOutsideRange: this.props.isOutsideRange,
