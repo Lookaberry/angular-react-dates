@@ -3,7 +3,7 @@ Angular wrapper component for Airbnb react-dates. Source of inspiration: larixso
 
 ## Preview
 
-![angular-react-dates-preview](lookaberry-angular-react-dates.png)
+![angular-react-dates-preview](https://raw.githubusercontent.com/Lookaberry/angular-react-dates/master/lookaberry-angular-react-dates.png)
 
 ## Contribution
 Contribution are always **welcome and recommended!** Here is how:
