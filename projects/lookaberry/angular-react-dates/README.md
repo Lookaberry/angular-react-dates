@@ -1,24 +1,19 @@
-# AngularReactDates
+# lookaberry/angular-react-dates
+Angular wrapper component for Airbnb react-dates. Source of inspiration: larixsource/angular-react-dates
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+## Preview
 
-## Code scaffolding
+![angular-react-dates-preview](lookaberry-angular-react-dates.png)
 
-Run `ng generate component component-name --project angular-react-dates` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project angular-react-dates`.
-> Note: Don't forget to add `--project angular-react-dates` or else it will be added to the default project in your `angular.json` file. 
+## Contribution
+Contribution are always **welcome and recommended!** Here is how:
+- Fork the repository [(here is the guide).](https://help.github.com/articles/fork-a-repo/)
+- Clone to your machine.
+```
+git clone https://github.com/YOUR_USERNAME/angular-react-dates.git
+```
+- Make your changes.
+- Create a pull request.
 
-## Build
-
-Run `ng build angular-react-dates` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build angular-react-dates`, go to the dist folder `cd dist/angular-react-dates` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test angular-react-dates` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## License
+**lookaberry/angular-react-dates** is an open source project that is licensed under the [MIT license](http://opensource.org/licenses/MIT).
